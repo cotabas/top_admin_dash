@@ -4,73 +4,199 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="lib/style.css">
   <title>Top Admin Dash</title>
 </head>
 <body>
   <header>
+    <div id="topRow">
+      <form id="search" action="search">
+        <span class="material-icons biggerIcon">search</span>
+        <input type="text">
+      </form>
+      
+      <span class="material-icons biggerIcon">notifications_active</span>
+      <img class="avatar" src="pix/lion.png" alt="lion avatar">
+      <h3>Morgan Oakley</h3>
+    </div>
+    <div id="secondRow">
+      <img class="largeAvatar" src="pix/lion.png" alt="lion avatar">
+      <div id="greet">
+        <h4>Hi there,</h4>
+        <h2>Morgan Oakley (@morgan)</h2>
+      </div>
+      
+      <button>New</button>
+      <button>Upload</button>
+      <button>Share</button>
+    </div>
     
   </header>
   <nav>
+    <div id="logoBox">
+    <span id="dashIcon" class="material-icons">dashboard</span> 
     <h1>Dashboard</h1>
+    </div>
+
     <ul>
-      <li>Home</li>
-      <li>Profile</li>
-      <li>Messages</li>
-      <li>History</li>
-      <li>Tasks</li>
-      <li>Communities</li>
+      <li>
+        <span class="material-icons">home</span>
+        Home
+      </li>
+      <li>
+        <span class="material-icons">account_circle</span>
+        Profile
+    </li>
+      <li>
+        <span class="material-icons">question_answer</span>
+        Messages
+      </li>
+      <li>
+        <span class="material-icons">watch_later</span>
+        History
+      </li>
+      <li>
+        <span class="material-icons">assignment</span>
+        Tasks
+      </li>
+      <li>
+        <span class="material-icons">supervisor_account</span>
+        Communities
+      </li>
     </ul>
     <ul>
-      <li>Settings</li>
-      <li>Support</li>
-      <li>Privacy</li>
+      <li>
+        <span class="material-icons">settings</span>
+        Settings
+      </li>
+      <li>
+        <span class="material-icons">help_outline</span>
+        Support
+      </li>
+      <li>
+        <span class="material-icons">lock</span>
+        Privacy
+      </li>
     </ul>
   </nav>
   <section>
     <div id="projects">
       <h3>Your Projects</h3>
       <div id="cards">
-
+        <div class="card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab blanditiis consequatur porro natus quis nesciunt?</p>
+          <div class="cardButtons">
+            <span class="material-icons">bookmark_add</span>
+            <span class="material-icons">notification_add</span>
+            <span class="material-icons">share</span>
+          </div>
+          
+        </div>
+        <div class="card">
+          <h3>Less Cool Project</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam praesentium perferendis mollitia eaque corporis, quas repudiandae? Consectetur sapiente rem molestiae!</p>
+          <div class="cardButtons">
+            <span class="material-icons">bookmark_add</span>
+            <span class="material-icons">notification_add</span>
+            <span class="material-icons">share</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Impossible App</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab blanditiis consequatur porro natus quis nesciunt?</p>
+          <div class="cardButtons">
+            <span class="material-icons">bookmark_add</span>
+            <span class="material-icons">notification_add</span>
+            <span class="material-icons">share</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Easy Peasy App</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam praesentium perferendis mollitia eaque corporis, quas repudiandae? Consectetur sapiente rem molestiae!</p>
+          <div class="cardButtons">
+            <span class="material-icons">bookmark_add</span>
+            <span class="material-icons">notification_add</span>
+            <span class="material-icons">share</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Ad Blocker</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam praesentium perferendis mollitia eaque corporis, quas repudiandae? Consectetur sapiente rem molestiae!</p>
+          <div class="cardButtons">
+            <span class="material-icons">bookmark_add</span>
+            <span class="material-icons">notification_add</span>
+            <span class="material-icons">share</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Money Maker</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab blanditiis consequatur porro natus quis nesciunt?</p>
+          <div class="cardButtons">
+            <span class="material-icons">bookmark_add</span>
+            <span class="material-icons">notification_add</span>
+            <span class="material-icons">share</span>
+          </div>
+        </div>
       </div>
     </div>
     <div id="announcements">
       <h3>Announcements</h3>
-      <div>
+      <div class="sideCard">
         <ul>
           <li>
-            <h5>Site Maintenance</h5>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, maxime.
+            <h4>Site Maintenance</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, maxime.</p>
           </li>
+          <hr>
           <li>
-            <h5>Community Share Day</h5>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, atque.
+            <h4>Community Share Day</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, atque.</p>
           </li>
+          <hr>
           <li>
-            <h5>Updated Privacy Policy</h5>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sit?
+            <h4>Updated Privacy Policy</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sit?</p>
           </li>
         </ul>
       </div>
     </div>
     <div id="trending">
       <h3>Trending</h3>
-      <div>
+      <div id="trendList" class="sideCard">
         <ul>
           <li>
-            @tegan
-            World Peace Builder
+            <img class="avatar" src="pix/deer.png" alt="deer avatar">
+            <div>
+              @tegan
+              <p>World Peace Builder</p>   
+            </div>
+           
           </li>
           <li>
-            @morgan
-            Super Cool Project
+            <img class="avatar" src="pix/lion.png" alt="lion avatar">
+            <div>
+              @morgan
+              <p>Super Cool Project</p>
+            </div>
+
           </li>
           <li>
-            @kendall
-            Life Changing App
+            <img class="avatar" src="pix/tiger.png" alt="tiger avatar">
+            <div>
+              @kendall
+              <p>Life Changing App</p>
+            </div>
+            
           </li>
           <li>
-            @alex
-            No Traffic Maker
+            <img class="avatar" src="pix/wolf.png" alt="wolf avatar">
+            <div>
+              @alex
+              <p>No Traffic Maker</p>
+            </div>
+
           </li>
         </ul>
       </div>
